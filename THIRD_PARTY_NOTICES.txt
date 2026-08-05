@@ -1,0 +1,97 @@
+TIPO審查歷程下載器 第三方元件授權聲明
+════════════════════════════════════
+
+本軟體之發佈包內含下列第三方元件。各元件之著作權屬其原權利人所有，
+並依各自之授權條款授權；本軟體之授權條款（LICENSE.txt）不適用於該等元件。
+
+各元件之完整授權全文，可於安裝目錄之 _internal 資料夾內各套件隨附之
+授權檔案，或各專案官方網站取得。常見之 MIT 與 BSD-3-Clause 授權全文
+附於本文件末尾。
+
+── 執行環境 ──────────────────────────
+Python                    PSF License 2.0        (c) Python Software Foundation
+Tcl/Tk                    Tcl/Tk License（BSD 式） (c) Tcl 相關權利人
+PyInstaller bootloader    GPL 2.0 with exception （其例外條款明文允許
+                          打包產物以任意授權散布，本軟體依此散布）
+Microsoft VC++ Runtime    Microsoft 可轉散布授權
+OpenSSL 3 (libssl/libcrypto)  Apache License 2.0
+zlib                      zlib License
+libffi                    MIT License
+
+── Python 套件 ──────────────────────
+requests                  Apache License 2.0     (c) Kenneth Reitz 與貢獻者
+urllib3                   MIT License            (c) Andrey Petrov 與貢獻者
+idna                      BSD-3-Clause           (c) Kim Davies 等
+certifi                   Mozilla Public License 2.0
+charset_normalizer        MIT License            (c) Ahmed TAHRI
+pypdf                     BSD-3-Clause           (c) Mathieu Fenniak 等
+h2 / hpack / hyperframe   MIT License            (c) Cory Benfield 等
+Pillow (PIL)              MIT-CMU License        (c) Jeffrey A. Clark 與貢獻者;
+                          原 PIL (c) Secret Labs AB, Fredrik Lundh
+numpy                     BSD-3-Clause           (c) NumPy Developers
+lxml                      BSD-3-Clause           (c) lxml 開發團隊
+cryptography              Apache-2.0 或 BSD-3-Clause 雙授權
+                          (c) Python Cryptographic Authority
+fontTools                 MIT License            (c) fontTools 貢獻者
+psutil                    BSD-3-Clause           (c) Giampaolo Rodola 等
+pywin32                   PSF-based License      (c) Mark Hammond 等
+PyYAML                    MIT License            (c) Ingy döt Net, Kirill Simonov
+
+── 建置工具 ──────────────────────────
+本軟體之部分模組以 Cython（Apache License 2.0，(c) Cython 開發團隊）
+編譯為原生擴充模組；編譯產物內含 Cython 產生之執行期支援程式碼。
+
+── 安裝程式 ──────────────────────────
+本軟體之安裝檔以 Inno Setup（(c) Jordan Russell 與 Martijn Laan）產生，
+Inno Setup 依其授權條款可免費用於散布軟體。
+
+════════════════════════════════════
+MIT License（通用全文）
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+════════════════════════════════════
+BSD 3-Clause License（通用全文）
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
