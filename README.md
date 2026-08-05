@@ -14,7 +14,9 @@
 ## 下載
 
 到 **[Releases](../../releases/latest)** 頁面下載最新版
-`TIPO審查歷程下載器_vX.Y.Z_setup.exe`，雙擊安裝即可。
+`TIPO-S092-Downloader_vX.Y.Z_setup.exe`，雙擊安裝即可
+（安裝後程式名稱顯示為「TIPO審查歷程下載器」；GitHub 附件
+不支援中文檔名，故下載檔名為英文）。
 
 - 支援 Windows 10 / 11，不需系統管理員權限（安裝到使用者資料夾）。
 - 若出現藍色「Windows 已保護您的電腦」畫面：點「其他資訊」→「仍要執行」。
